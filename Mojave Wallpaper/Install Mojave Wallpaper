@@ -1,0 +1,37 @@
+echo ""
+echo ""
+echo "Welcome to the macOS Mojave wallpaper installer by Hazel_888"
+echo ""
+echo "With the introduction of macOS Big Sur in 2020 the Wallpaper from macOS Mojave was taken away from the wallpaper section."
+echo ""
+echo "this small executable adds that wallpaper back into the wallpaper section in the settings and gives it a well deserved come-back with the click of a mouse."
+echo "--------------------------------------------------------------------------------"
+echo "note: this installer is intended to run on macOS 11 Big Sur and newer. It might not work as expected on macOS Catalina and older."
+read -p "--------------------------------------------------------------------------------" -t 3
+cd /Library
+echo "Setup needs your user password to add the necessary files on your Mac."
+echo "--------------------------------------------------------------------------------"
+sudo mkdir Desktop\ Pictures
+echo "- Making Desktop Pictures on the Library folder."
+cd /Library/Desktop\ Pictures
+echo "--------------------------------------------------------------------------------"
+echo "- making the thumbnails directory."
+sudo mkdir .thumbnails
+echo "--------------------------------------------------------------------------------"
+echo "- Copying the Mojave wallpaper to your Mac..."
+sudo cp -R /Volumes/Install\ Mojave\ Wallpaper/.wallpaper/Mojave.heic /Library/Desktop\ Pictures
+echo "--------------------------------------------------------------------------------"
+echo "- Copying thumbnails onto the thumbnails folder "
+sudo cp -R /Volumes/Install\ Mojave\ Wallpaper/.wallpaper/thumb/Mojave\ Dark.heic /Library/Desktop\ Pictures/.thumbnails
+sudo cp -R /Volumes/Install\ Mojave\ Wallpaper/.wallpaper/thumb/Mojave\ Light.heic /Library/Desktop\ Pictures/.thumbnails
+sudo cp -R /Volumes/Install\ Mojave\ Wallpaper/.wallpaper/thumb/Mojave.heic /Library/Desktop\ Pictures/.thumbnails
+echo "--------------------------------------------------------------------------------"
+echo "install done!"
+echo "--------------------------------------------------------------------------------"
+echo "the macOS Mojave wallpaper has been successfully added to the wallpaper section!"
+echo ""
+echo "Note: You need to restart the System Preferences or System Settings App to Apply Changes."
+echo ""
+echo ""
+echo "Thank you for using this this installer! I hope you enjoy your new wallpaper!"
+echo " - Hazel"

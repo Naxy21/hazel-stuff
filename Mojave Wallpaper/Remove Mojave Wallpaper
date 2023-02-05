@@ -1,0 +1,19 @@
+echo ""
+echo ""
+echo "Welcome to the macOS Mojave wallpaper installer by Hazel_888"
+echo ""
+echo "This setup will remove the macOS Mojave wallpaper from your Mac."
+echo ""
+echo "--------------------------------------------------------------------------------"
+echo "Setup needs your user password to remove the Mojave wallpaper from your Mac."
+echo "--------------------------------------------------------------------------------"
+sudo rm /Library/Desktop\ Pictures/Mojave.heic
+echo "removing the Mojave wallpaper..."
+echo "--------------------------------------------------------------------------------"
+sudo rm /Library/Desktop\ Pictures/.thumbnails/Mojave\ Light.heic
+sudo rm /Library/Desktop\ Pictures/.thumbnails/Mojave\ Dark.heic
+sudo rm /Library/Desktop\ Pictures/.thumbnails/Mojave.heic
+echo "the macOS Mojave wallpaper has been successfully removed from the wallpaper section!"
+echo "--------------------------------------------------------------------------------"
+echo "Note: You need to restart the System Preferences or System Settings App to Apply Changes."
+echo ""
