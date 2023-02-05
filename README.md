@@ -6,7 +6,7 @@ this small executable adds that wallpaper back into the wallpaper section in the
 
 ![preview](https://github.com/Naxy21/macOS-Mojave-Wallpaper-Returns/blob/main/Mojave%20Wallpaper/Screenshot%202023-02-05%20at%2011.31.57%20AM.png?raw=true)
 ----------
-*Sleek and easy to use installer
+* Sleek and easy to use installer
 ![preview](https://github.com/Naxy21/macOS-Mojave-Wallpaper-Returns/blob/main/Mojave%20Wallpaper/Screenshot%202023-02-05%20at%2011.21.24%20AM.png?raw=true)
 
 ----------
